@@ -35,6 +35,11 @@ fun main(args: Array<String>) {
     }
 
     fun bellaIsFeeling(mood:String="happy"){
-         
+         if (mood=="angry"){
+             println("Run for the Hills, Bella id $mood")
+         }
+        else
+             print("Whatever you do don't make her angry")
     }
+    bellaIsFeeling("angry")
 }
