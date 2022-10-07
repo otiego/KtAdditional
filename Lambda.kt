@@ -35,7 +35,7 @@ fun main(args: Array<String>) {
         fun downloadTruckData(url:String,completion: (Truck?,Boolean) -> Unit){
             //sent a download request
             // we got the results back
-            val webRequestSuccess = false
+            val webRequestSuccess = true
             if (webRequestSuccess){
 //                received truck data
                 val truck = Truck("Scania","Topline",15000)
